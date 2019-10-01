@@ -1,0 +1,8 @@
+# ambiente virtual
+env/
+
+# pycache
+__pycache__
+
+
+
