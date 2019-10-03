@@ -54,11 +54,33 @@ def get_user_by_id(userid):
     
 @app.route('/users/<userid>', methods=[ 'PUT', 'PATCH'])
 def update_user_by_id(userid):
-    return 'update user with id {}'.format(userid)
+    
+    user = {
+        '_id' : bson.ObjectId(userid) 
+    }
+    db.users.update(user, { 
+        '$set' : flask.request.json
+    })
+    
+    user = db.users.find_one({
+        '_id': bson.ObjectId(userid)
+    })
+        
+    return flask.jsonify({
+        'id': str(user.get('_id')),
+        'name': user.get('name'),
+        'email': user.get('email'),
+        'password': user.get('password')
+    })
     
 @app.route('/users/<userid>', methods= [ 'DELETE' ])
 def delete_user_by_id(userid):
-    return 'delete user with id {}'.format(userid) 
+    
+    db.users.remove({
+        '_id': bson.ObjectId(userid)    
+    })
+    
+    return flask.jsonify({ 'msg' : 'Usuário removido com sucesso' }) 
 
 @app.route('/soma', methods = [ 'POST' ])
 def soma():
