@@ -19,7 +19,7 @@ err = {
 @blueprint.route('/jenkins', methods=[ 'GET', 'POST' ])
 def jenkins_action():
     
-    conn = Nonepytho
+    conn = None
     
     try:
         conn = jenkins.Jenkins(**opts)
