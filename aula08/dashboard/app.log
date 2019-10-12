@@ -1,0 +1,96 @@
+ * Debugger is active!
+ * Debugger PIN: 334-585-589
+ * Detected change in '/home/developer/Documents/521-Python4SysAdmin/aula08/dashboard/app.py', reloading
+[11/10/2019 21:24:19 ] [ INFO ] root [ <module> ] [ app.py, 26] Iniciando a aplicação...
+[11/10/2019 21:24:19 ] [ WARNING ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger is active!
+[11/10/2019 21:24:19 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger PIN: 334-585-589
+[11/10/2019 21:24:36 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:24:36] "POST /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:25:02 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:25:02] "POST /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:25:03 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:25:03] "GET /static/css/style.css HTTP/1.1" 304 -
+[11/10/2019 21:28:44 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Detected change in '/home/developer/Documents/521-Python4SysAdmin/aula08/dashboard/routes/docker.py', reloading
+[11/10/2019 21:28:44 ] [ INFO ] root [ <module> ] [ app.py, 26] Iniciando a aplicação...
+[11/10/2019 21:28:44 ] [ WARNING ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger is active!
+[11/10/2019 21:28:44 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger PIN: 334-585-589
+[11/10/2019 21:29:24 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Detected change in '/home/developer/Documents/521-Python4SysAdmin/aula08/dashboard/routes/docker.py', reloading
+[11/10/2019 21:29:25 ] [ INFO ] root [ <module> ] [ app.py, 26] Iniciando a aplicação...
+[11/10/2019 21:29:25 ] [ WARNING ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger is active!
+[11/10/2019 21:29:25 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger PIN: 334-585-589
+[11/10/2019 21:30:14 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:30:14] "POST /sign-in HTTP/1.1" 302 -
+[11/10/2019 21:30:14 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:30:14 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:30:14 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:30:14 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:30:14 ] [ DEBUG ] urllib3.connectionpool [ _new_conn ] [ connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:2376
+[11/10/2019 21:30:14 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[11/10/2019 21:30:14 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/33a4c315ad4660ed603e4c5c1606f26627b38dff5ee535380b533cd5c82dba99/json HTTP/1.1" 200 None
+[11/10/2019 21:30:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/4a7d94eecb2fb818e5f858631861385430973e42f0d638b3c269040b73948b89/json HTTP/1.1" 200 None
+[11/10/2019 21:30:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/76966a6daae4dac9489e3d18c525b12505460136a06ca57122002b906128f0b8/json HTTP/1.1" 200 None
+[11/10/2019 21:30:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/52ade358a46ccd335580f544ea1a7cfc9918164ca2f79593aa5bb2ac55a88a80/json HTTP/1.1" 200 None
+[11/10/2019 21:30:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/dc87a7c06da6cbefa3429b2de13cea66772ede18991f32447e91386ad15510b1/json HTTP/1.1" 200 None
+[11/10/2019 21:30:15 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:30:15] "GET /docker HTTP/1.1" 200 -
+[11/10/2019 21:30:17 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:30:17 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:30:17 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:30:17 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:30:17 ] [ DEBUG ] urllib3.connectionpool [ _new_conn ] [ connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:2376
+[11/10/2019 21:30:17 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/dc87a7c06d/json HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "POST /v1.35/containers/dc87a7c06da6cbefa3429b2de13cea66772ede18991f32447e91386ad15510b1/start HTTP/1.1" 204 0
+[11/10/2019 21:30:18 ] [ INFO ] root [ start_container ] [ docker.py, 52] Container dc87a7c06d iniciado
+[11/10/2019 21:30:18 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:30:18] "GET /docker/dc87a7c06d/start HTTP/1.1" 302 -
+[11/10/2019 21:30:18 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:30:18 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:30:18 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:30:18 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _new_conn ] [ connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:2376
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/33a4c315ad4660ed603e4c5c1606f26627b38dff5ee535380b533cd5c82dba99/json HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/4a7d94eecb2fb818e5f858631861385430973e42f0d638b3c269040b73948b89/json HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/76966a6daae4dac9489e3d18c525b12505460136a06ca57122002b906128f0b8/json HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/52ade358a46ccd335580f544ea1a7cfc9918164ca2f79593aa5bb2ac55a88a80/json HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/dc87a7c06da6cbefa3429b2de13cea66772ede18991f32447e91386ad15510b1/json HTTP/1.1" 200 None
+[11/10/2019 21:30:18 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:30:18] "GET /docker HTTP/1.1" 200 -
+[11/10/2019 21:31:02 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Detected change in '/home/developer/Documents/521-Python4SysAdmin/aula08/dashboard/routes/gitlab.py', reloading
+[11/10/2019 21:31:02 ] [ INFO ] root [ <module> ] [ app.py, 26] Iniciando a aplicação...
+[11/10/2019 21:31:02 ] [ WARNING ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger is active!
+[11/10/2019 21:31:02 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122]  * Debugger PIN: 334-585-589
+[11/10/2019 21:35:13 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:35:13 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:35:13 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:35:13 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:35:13 ] [ DEBUG ] urllib3.connectionpool [ _new_conn ] [ connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:2376
+[11/10/2019 21:35:13 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/dc87a7c06d/json HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "POST /v1.35/containers/dc87a7c06da6cbefa3429b2de13cea66772ede18991f32447e91386ad15510b1/stop HTTP/1.1" 204 0
+[11/10/2019 21:35:15 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:35:15] "GET /docker/dc87a7c06d/stop HTTP/1.1" 302 -
+[11/10/2019 21:35:15 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:35:15 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:35:15 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[11/10/2019 21:35:15 ] [ DEBUG ] docker.utils.config [ find_config_file ] [ config.py, 28] No config file found
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _new_conn ] [ connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:2376
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/33a4c315ad4660ed603e4c5c1606f26627b38dff5ee535380b533cd5c82dba99/json HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/4a7d94eecb2fb818e5f858631861385430973e42f0d638b3c269040b73948b89/json HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/76966a6daae4dac9489e3d18c525b12505460136a06ca57122002b906128f0b8/json HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/52ade358a46ccd335580f544ea1a7cfc9918164ca2f79593aa5bb2ac55a88a80/json HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ DEBUG ] urllib3.connectionpool [ _make_request ] [ connectionpool.py, 437] http://127.0.0.1:2376 "GET /v1.35/containers/dc87a7c06da6cbefa3429b2de13cea66772ede18991f32447e91386ad15510b1/json HTTP/1.1" 200 None
+[11/10/2019 21:35:15 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:35:15] "GET /docker HTTP/1.1" 200 -
+[11/10/2019 21:49:05 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:49:05] "GET /sign-out HTTP/1.1" 302 -
+[11/10/2019 21:49:05 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:49:05] "GET /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:49:05 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:49:05] "GET /static/js/app.js HTTP/1.1" 200 -
+[11/10/2019 21:52:02 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:52:02] "GET /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:52:02 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:52:02] "GET /static/css/style.css HTTP/1.1" 304 -
+[11/10/2019 21:52:02 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:52:02] "GET /static/js/app.js HTTP/1.1" 304 -
+[11/10/2019 21:52:34 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:52:34] "GET /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:52:34 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:52:34] "GET /static/css/style.css HTTP/1.1" 304 -
+[11/10/2019 21:52:34 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:52:34] "GET /static/js/app.js HTTP/1.1" 200 -
+[11/10/2019 21:53:46 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:53:46] "GET /sign-up HTTP/1.1" 200 -
+[11/10/2019 21:53:46 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:53:46] "GET /static/css/style.css HTTP/1.1" 200 -
+[11/10/2019 21:53:46 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:53:46] "GET /static/js/app.js HTTP/1.1" 200 -
+[11/10/2019 21:54:44 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:54:44] "GET /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:54:44 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:54:44] "GET /static/css/style.css HTTP/1.1" 304 -
+[11/10/2019 21:54:44 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:54:44] "GET /static/js/app.js HTTP/1.1" 200 -
+[11/10/2019 21:55:48 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:55:48] "GET /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:55:48 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:55:48] "GET /static/css/style.css HTTP/1.1" 304 -
+[11/10/2019 21:55:48 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:55:48] "GET /static/js/app.js HTTP/1.1" 200 -
+[11/10/2019 21:56:43 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:56:43] "GET /sign-in HTTP/1.1" 200 -
+[11/10/2019 21:56:43 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:56:43] "GET /static/css/style.css HTTP/1.1" 304 -
+[11/10/2019 21:56:43 ] [ INFO ] werkzeug [ _log ] [ _internal.py, 122] 127.0.0.1 - - [11/Oct/2019 21:56:43] "GET /static/js/app.js HTTP/1.1" 200 -

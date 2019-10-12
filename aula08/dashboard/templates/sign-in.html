@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+<div class="card shadow" style="width: 20rem; margin: auto;">
+  <div class="card-body">
+    <form method="POST" action="/sign-in">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="input-group">
+            <input type="password" id="password" class="form-control" name="password">
+            <div class="input-group-append"> 
+                <button type="button" id="ver" class="btn btn-outline-secondary">Ver</button>
+            </div> 
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Acessar</button>
+    </form>
+    <a href="/sign-up">Não sou cadastrado</a>
+  </div>
+</div>
+{% endblock %}
